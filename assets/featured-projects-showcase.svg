@@ -1,0 +1,167 @@
+<svg width="1200" height="920" viewBox="0 0 1200 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="40" x2="1110" y2="884" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111D"/>
+      <stop offset="0.55" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#040913"/>
+    </linearGradient>
+    <linearGradient id="line" x1="600" y1="130" x2="600" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="122" y1="166" x2="1054" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A7CBC" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(976 170) rotate(90) scale(160 160)">
+      <stop stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 774) rotate(180) scale(260 180)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100" y="-100" width="1400" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow" x="74" y="128" width="1052" height="694" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020617" flood-opacity="0.72"/>
+    </filter>
+    <style>
+      .heading { fill: #EDF8FF; font-family: Georgia, 'Times New Roman', serif; font-size: 28px; font-weight: 700; }
+      .sub { fill: #91ABC4; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
+      .name { fill: #E6F7FF; font-family: Georgia, 'Times New Roman', serif; font-size: 24px; font-weight: 700; }
+      .body { fill: #AABFD5; font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; }
+      .mini { fill: #CFEFFF; font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.1px; }
+      .tag { fill: #D7F2FF; font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="920" rx="34" fill="url(#bg)"/>
+  <g filter="url(#blur)">
+    <circle cx="976" cy="170" r="76" fill="url(#orbA)"/>
+    <ellipse cx="280" cy="774" rx="220" ry="120" fill="url(#orbB)"/>
+  </g>
+
+  <text x="82" y="70" class="heading">Project Universe</text>
+  <text x="82" y="95" class="sub">A custom README-only concept: animated signal lines, real project logos, and a more cinematic layout.</text>
+
+  <circle cx="600" cy="454" r="164" stroke="#0F2740" stroke-opacity="0.8"/>
+  <circle cx="600" cy="454" r="250" stroke="#0F2740" stroke-opacity="0.45"/>
+  <path d="M600 134V784" stroke="url(#line)" stroke-width="2"/>
+  <path d="M212 454H988" stroke="#14304C" stroke-opacity="0.7"/>
+
+  <circle cx="600" cy="454" r="10" fill="#67E8F9">
+    <animate attributeName="r" values="8;12;8" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="454" r="26" stroke="#67E8F9" stroke-opacity="0.4">
+    <animate attributeName="r" values="24;34;24" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(120 150)">
+      <rect width="356" height="148" rx="24" fill="#0C1728" fill-opacity="0.92" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="24" y="24" width="64" height="64" rx="18" fill="#091220"/>
+      <rect x="32" y="32" width="48" height="48" rx="14" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <circle cx="56" cy="56" r="12" fill="#11364D"/>
+      <path d="M56 39C62 46 69 48 69 56C69 64 63 71 56 74C49 71 43 64 43 56C43 48 50 46 56 39Z" fill="#6EE7F9"/>
+      <path d="M56 47V65M47 56H65" stroke="#082032" stroke-width="4" stroke-linecap="round"/>
+      <text x="106" y="54" class="name">CareAI</text>
+      <text x="106" y="80" class="body">Health assistant API focused on symptoms, doctors,</text>
+      <text x="106" y="99" class="body">appointments, and AI wellness guidance.</text>
+      <rect x="106" y="114" width="54" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="120" y="126" class="tag">Laravel</text>
+      <rect x="168" y="114" width="54" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="182" y="126" class="tag">OpenAI</text>
+      <rect x="230" y="114" width="56" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="244" y="126" class="tag">REST API</text>
+    </g>
+
+    <g transform="translate(724 150)">
+      <rect width="356" height="148" rx="24" fill="#0C1728" fill-opacity="0.92" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="24" y="24" width="64" height="64" rx="18" fill="#091220"/>
+      <rect x="32" y="32" width="48" height="48" rx="14" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <rect x="46" y="44" width="20" height="28" rx="5" fill="#10243A"/>
+      <path d="M54 36V50H68" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M50 52H62M50 58H62M50 64H58" stroke="#D5F4FF" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="106" y="54" class="name">CVpilot</text>
+      <text x="106" y="80" class="body">ATS-ready resume builder with premium presentation</text>
+      <text x="106" y="99" class="body">for modern job application workflows.</text>
+      <rect x="106" y="114" width="52" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="121" y="126" class="tag">Next.js</text>
+      <rect x="166" y="114" width="64" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="179" y="126" class="tag">TypeScript</text>
+      <rect x="238" y="114" width="72" height="18" rx="5" fill="#112338" stroke="#2E79B7"/><text x="251" y="126" class="tag">Tailwind</text>
+    </g>
+
+    <g transform="translate(120 386)">
+      <rect width="292" height="132" rx="22" fill="#0C1728" fill-opacity="0.9" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="20" y="20" width="56" height="56" rx="16" fill="#091220"/>
+      <rect x="28" y="28" width="40" height="40" rx="12" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <circle cx="44" cy="48" r="6" fill="#67E8F9"/>
+      <circle cx="60" cy="48" r="6" fill="#A5F3FC"/>
+      <path d="M35 62C38 56 43 54 48 54C54 54 58 56 62 62" stroke="#67E8F9" stroke-width="4" stroke-linecap="round"/>
+      <text x="92" y="48" class="name" font-size="20">EasyColoc</text>
+      <text x="92" y="73" class="body">Shared-expense platform with balances,</text>
+      <text x="92" y="91" class="body">repayments, and roommate workflows.</text>
+      <rect x="92" y="104" width="44" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="104" y="115" class="tag">React</text>
+      <rect x="142" y="104" width="40" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="154" y="115" class="tag">Node</text>
+      <rect x="188" y="104" width="48" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="200" y="115" class="tag">MySQL</text>
+    </g>
+
+    <g transform="translate(788 386)">
+      <rect width="292" height="132" rx="22" fill="#0C1728" fill-opacity="0.9" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="20" y="20" width="56" height="56" rx="16" fill="#091220"/>
+      <rect x="28" y="28" width="40" height="40" rx="12" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <circle cx="48" cy="42" r="6" fill="#A5F3FC"/>
+      <rect x="38" y="50" width="20" height="10" rx="5" fill="#15344E"/>
+      <path d="M38 55H58" stroke="#6EE7F9" stroke-width="3.4" stroke-linecap="round"/>
+      <text x="92" y="48" class="name" font-size="20">TrackZen</text>
+      <text x="92" y="73" class="body">Habit and productivity API designed for</text>
+      <text x="92" y="91" class="body">consistency, auth, logs, and streak logic.</text>
+      <rect x="92" y="104" width="50" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="104" y="115" class="tag">Laravel</text>
+      <rect x="148" y="104" width="34" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="159" y="115" class="tag">JWT</text>
+      <rect x="188" y="104" width="52" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="200" y="115" class="tag">API</text>
+    </g>
+
+    <g transform="translate(204 620)">
+      <rect width="324" height="124" rx="22" fill="#0C1728" fill-opacity="0.9" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="22" y="20" width="56" height="56" rx="16" fill="#091220"/>
+      <rect x="30" y="28" width="40" height="40" rx="12" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <path d="M50 34L62 58H38L50 34Z" fill="#13344A"/>
+      <path d="M50 34L56 46H44L50 34Z" fill="#6EE7F9"/>
+      <text x="94" y="50" class="name" font-size="20">ATLAS</text>
+      <text x="94" y="75" class="body">Laravel foundation engineered for scale,</text>
+      <text x="94" y="93" class="body">clean architecture, and product evolution.</text>
+      <rect x="94" y="102" width="50" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="106" y="113" class="tag">Laravel</text>
+      <rect x="150" y="102" width="36" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="161" y="113" class="tag">PHP</text>
+    </g>
+
+    <g transform="translate(672 620)">
+      <rect width="324" height="124" rx="22" fill="#0C1728" fill-opacity="0.9" stroke="url(#stroke)" stroke-opacity="0.7"/>
+      <rect x="22" y="20" width="56" height="56" rx="16" fill="#091220"/>
+      <rect x="30" y="28" width="40" height="40" rx="12" fill="#0D1A2D" stroke="#1B5F8C"/>
+      <circle cx="44" cy="42" r="5.5" fill="#A5F3FC"/>
+      <circle cx="56" cy="42" r="5.5" fill="#67E8F9"/>
+      <circle cx="50" cy="56" r="6.5" fill="#6EE7F9"/>
+      <path d="M44 47V50H50M56 47V50H50M50 50V56" stroke="#2A6B99" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="94" y="50" class="name" font-size="20">Groupify</text>
+      <text x="94" y="75" class="body">Contact and group management with CRUD,</text>
+      <text x="94" y="93" class="body">relationships, and responsive workflows.</text>
+      <rect x="94" y="102" width="50" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="106" y="113" class="tag">Laravel</text>
+      <rect x="150" y="102" width="52" height="16" rx="5" fill="#112338" stroke="#2E79B7"/><text x="162" y="113" class="tag">MySQL</text>
+    </g>
+  </g>
+
+  <path d="M476 224L554 356" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M724 224L646 356" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M412 452L520 452" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M788 452L680 452" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M528 682L576 546" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M672 682L624 546" stroke="#1D4E77" stroke-width="2" stroke-dasharray="6 7"/>
+
+  <circle cx="476" cy="224" r="4" fill="#67E8F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="724" cy="224" r="4" fill="#67E8F9"><animate attributeName="opacity" values="1;0.35;1" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="412" cy="452" r="4" fill="#67E8F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="788" cy="452" r="4" fill="#67E8F9"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="528" cy="682" r="4" fill="#67E8F9"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="672" cy="682" r="4" fill="#67E8F9"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+</svg>
