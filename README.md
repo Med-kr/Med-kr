@@ -79,7 +79,7 @@
 <table align="center">
   <tr>
     <p align="center">
-  <img src="./assets/whant.png" alt="Mohammed Kassir Med-Kr logo" width="50%" />
+  <img src="./assets/whant.png" alt="Mohammed Kassir Med-Kr logo" width="70%" />
 </p>
 </table>
 
