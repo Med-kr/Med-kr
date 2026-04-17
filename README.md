@@ -112,19 +112,6 @@
   <tr>
     <td width="50%" valign="top">
       <p align="left">
-        <a href="https://github.com/Med-kr/Laha" target="_blank">
-          <img src="./assets/project-logos/laha.png" alt="Laha logo" width="64" />
-        </a>
-        <br />
-        <strong><a href="https://github.com/Med-kr/Laha" target="_blank">Laha</a></strong>
-        <br />
-        <sub>Premium women’s health SaaS with multilingual UX, privacy-first flows, and monorepo architecture.</sub>
-        <br />
-        <sub>React • Express • MongoDB</sub>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p align="left">
         <a href="https://github.com/Med-kr/CareAI" target="_blank">
           <img src="./assets/project-logos/careai.png" alt="CareAI logo" width="64" />
         </a>
@@ -136,8 +123,6 @@
         <sub>Laravel • OpenAI • REST API</sub>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <p align="left">
         <a href="https://github.com/Med-kr/Confiance" target="_blank">
@@ -151,6 +136,8 @@
         <sub>PHP • MySQL • Dashboard</sub>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <p align="left">
         <a href="https://github.com/Med-kr/SymptoAI" target="_blank">
@@ -164,8 +151,6 @@
         <sub>React • Vite • UI</sub>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <p align="left">
         <a href="https://github.com/Med-kr/ATLAS" target="_blank">
@@ -177,19 +162,6 @@
         <sub>Laravel application foundation designed for scale, structure, and clean architecture.</sub>
         <br />
         <sub>Laravel • PHP • Architecture</sub>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p align="left">
-        <a href="https://github.com/Med-kr/CVpilot" target="_blank">
-          <img src="./assets/project-logos/cvpilot.png" alt="CVpilot logo" width="64" />
-        </a>
-        <br />
-        <strong><a href="https://github.com/Med-kr/CVpilot" target="_blank">CVpilot</a></strong>
-        <br />
-        <sub>Premium ATS-ready resume builder focused on polished application workflows and UX.</sub>
-        <br />
-        <sub>Next.js • TypeScript • Tailwind</sub>
       </p>
     </td>
   </tr>
